@@ -393,9 +393,9 @@ body {
 
 /* FOOTER */
 .footer {
-    background-color: var(--bg-darker);
+    background-color: #0a0a0a;
     padding: 80px 0 20px;
-    border-top: 1px solid rgba(0,0,0,0.05);
+    border-top: 1px solid rgba(255,255,255,0.05);
 }
 .footer-container {
     display: grid;
@@ -403,8 +403,11 @@ body {
     gap: 40px;
     margin-bottom: 60px;
 }
+.footer-brand .logo {
+    align-items: flex-start;
+}
 .footer-brand p {
-    color: var(--text-muted);
+    color: #a0a0a0;
     margin: 20px 0;
     max-width: 300px;
 }
@@ -412,32 +415,32 @@ body {
 .social-links a {
     width: 40px; height: 40px;
     border-radius: 50%;
-    background: rgba(0,0,0,0.05);
+    background: rgba(255,255,255,0.05);
     display: flex; justify-content: center; align-items: center;
-    color: var(--text-main);
+    color: #fff;
     transition: var(--transition);
 }
 .social-links a:hover {
     background: var(--gold-light);
-    color: var(--bg-darker);
+    color: #0a0a0a;
     transform: translateY(-3px);
 }
 .footer h4 {
-    color: var(--text-main);
+    color: #fff;
     margin-bottom: 20px;
     font-family: var(--font-heading);
     font-size: 1.2rem;
 }
 .footer-links a {
     display: block;
-    color: var(--text-muted);
+    color: #a0a0a0;
     text-decoration: none;
     margin-bottom: 10px;
     transition: var(--transition);
 }
 .footer-links a:hover { color: var(--gold-light); }
 .footer-contact p {
-    color: var(--text-muted);
+    color: #a0a0a0;
     margin-bottom: 15px;
     display: flex; align-items: center; gap: 10px;
 }
@@ -445,8 +448,8 @@ body {
 .footer-bottom {
     text-align: center;
     padding-top: 20px;
-    border-top: 1px solid rgba(0,0,0,0.05);
-    color: var(--text-muted);
+    border-top: 1px solid rgba(255,255,255,0.05);
+    color: #a0a0a0;
     font-size: 0.9rem;
 }
 
