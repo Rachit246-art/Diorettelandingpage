@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diorette | India's First Luxury Salon & Café</title>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;1,600&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Custom Cursor -->
+    <div class="cursor-dot"></div>
+    <div class="cursor-outline"></div>
+
+    <!-- Preloader -->
+    <div id="preloader">
+        <div class="loader-content">
+            <h1 class="loader-logo">DIORETTE</h1>
+            <div class="loader-bar"></div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">
+                <span class="logo-title">DIORETTE</span>
+                <span class="logo-subtitle">SALON &bull; CAFE</span>
+            </a>
+            <div class="nav-links">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#services-detail">Services</a>
+                <a href="#cafe-detail">Café</a>
+                <a href="#testimonials">Reviews</a>
+                <a href="#faq">FAQ</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <a href="#contact" class="btn btn-primary">Book Now</a>
+            <button class="mobile-menu-btn"><i class="fas fa-bars"></i></button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <!-- Swiper inside hero -->
+        <div class="swiper hero-swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="slide-bg" style="background-image: url('assets/hero_bg.png');"></div>
+                    <div class="overlay"></div>
+                    <div class="container slide-content">
+                        <span class="badge">Premium Beauty & Wellness Studio</span>
+                        <h1 class="hero-title">India's First<br><span class="gradient-text">Luxury Salon & Café</span></h1>
+                        <p class="hero-desc">Where world-class beauty meets refined indulgence. Discover premium salon artistry paired with a sophisticated café experience.</p>
+                        <div class="hero-btns">
+                            <a href="#contact" class="btn btn-primary btn-lg">Book Your Slot <i class="fas fa-arrow-right"></i></a>
+                            <a href="#about" class="btn btn-outline btn-lg">Explore Diorette</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about section-padding">
+        <div class="container about-container">
+            <div class="about-text scroll-reveal">
+                <span class="section-subtitle">Experience It</span>
+                <h2 class="section-title">Feel the Luxury.<br><span class="gradient-text">Live Diorette.</span></h2>
+                <p>More than a salon visit, Diorette is a sensory escape where beauty, comfort, and sophistication merge to create unforgettable moments. We bring you the finest international brands and world-class stylists under one roof.</p>
+                <a href="#salon" class="btn btn-outline mt-3">Discover Our Services</a>
+            </div>
+            <div class="about-image scroll-reveal" style="transition-delay: 0.2s;">
+                <div class="image-wrapper">
+                    <img src="https://images.unsplash.com/photo-1560066984-138dadb4c035?auto=format&fit=crop&q=80&w=1000" alt="Diorette Interior">
+                    <div class="experience-badge">
+                        <span class="number">10+</span>
+                        <span class="text">Years of<br>Excellence</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Split Services: Salon and Cafe -->
+    <section class="services-split">
+        <div id="salon" class="service-panel salon-panel scroll-reveal">
+            <div class="panel-bg" style="background-image: url('https://images.unsplash.com/photo-1522337660859-02fbefca4702?auto=format&fit=crop&q=80&w=1000');"></div>
+            <div class="panel-overlay"></div>
+            <div class="panel-content">
+                <h3>Salon</h3>
+                <p>Expert styling, bespoke treatments, and premium luxury brands.</p>
+                <a href="#contact" class="btn btn-primary">Book Appointment</a>
+            </div>
+        </div>
+        <div id="cafe" class="service-panel cafe-panel scroll-reveal" style="transition-delay: 0.2s;">
+            <div class="panel-bg" style="background-image: url('https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&q=80&w=1000');"></div>
+            <div class="panel-overlay"></div>
+            <div class="panel-content">
+                <h3>Cafe</h3>
+                <p>Gourmet coffee, artisanal bites, and a serene atmosphere.</p>
+                <a href="#cafe-detail" class="btn btn-outline">View Menu</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Detailed Services Section -->
+    <section id="services-detail" class="services-detail section-padding">
+        <div class="container">
+            <div class="text-center scroll-reveal">
+                <span class="section-subtitle">Our Expertise</span>
+                <h2 class="section-title">Premium Salon <span class="gradient-text">Services</span></h2>
+            </div>
+            <div class="services-grid mt-5">
+                <div class="service-card scroll-reveal">
+                    <i class="fas fa-cut service-icon"></i>
+                    <h4>Hair Styling</h4>
+                    <p>Bespoke haircuts, premium coloring, and luxurious treatments.</p>
+                </div>
+                <div class="service-card scroll-reveal" style="transition-delay: 0.1s;">
+                    <i class="fas fa-spa service-icon"></i>
+                    <h4>Skin Care</h4>
+                    <p>Rejuvenating facials and advanced skincare using luxury brands.</p>
+                </div>
+                <div class="service-card scroll-reveal" style="transition-delay: 0.2s;">
+                    <i class="fas fa-hands service-icon"></i>
+                    <h4>Nails</h4>
+                    <p>Elegant manicures, pedicures, and custom nail art.</p>
+                </div>
+                <div class="service-card scroll-reveal" style="transition-delay: 0.3s;">
+                    <i class="fas fa-magic service-icon"></i>
+                    <h4>Bridal Makeup</h4>
+                    <p>Flawless, photogenic makeup for your special day.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Detailed Cafe Section -->
+    <section id="cafe-detail" class="cafe-detail section-padding" style="background-color: var(--bg-darker);">
+        <div class="container cafe-container">
+            <div class="cafe-image scroll-reveal">
+                <img src="https://images.unsplash.com/photo-1497935586351-b67a49e012bf?auto=format&fit=crop&q=80&w=1000" alt="Cafe Menu" style="width: 100%; border-radius: 10px;">
+            </div>
+            <div class="cafe-text scroll-reveal">
+                <span class="section-subtitle">Indulge</span>
+                <h2 class="section-title">The Diorette <span class="gradient-text">Cafe</span></h2>
+                <p>Pause your day and savor the finest gourmet coffee and artisanal bites in our aesthetically pleasing cafe space. The perfect way to complement your salon experience.</p>
+                <ul class="cafe-menu-list mt-4">
+                    <li><i class="fas fa-coffee"></i> Artisanal Coffee & Lattes</li>
+                    <li><i class="fas fa-leaf"></i> Organic Teas</li>
+                    <li><i class="fas fa-cookie-bite"></i> Freshly Baked Pastries</li>
+                    <li><i class="fas fa-hamburger"></i> Gourmet Sandwiches</li>
+                </ul>
+                <a href="#menu" class="btn btn-primary mt-4">View Full Menu</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials section-padding">
+        <div class="container">
+            <div class="text-center scroll-reveal">
+                <span class="section-subtitle">Reviews</span>
+                <h2 class="section-title">What Our <span class="gradient-text">Clients Say</span></h2>
+            </div>
+            <div class="swiper testimonial-swiper mt-5 scroll-reveal">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="testimonial-card">
+                            <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                            <p class="quote">"Absolutely the best salon experience I've ever had. The attention to detail and the luxury products used made me feel like royalty."</p>
+                            <h4>Priya S.</h4>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="testimonial-card">
+                            <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                            <p class="quote">"The cafe is gorgeous! I had a cappuccino while waiting for my appointment and it was perfection. Highly recommend."</p>
+                            <h4>Neha K.</h4>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="testimonial-card">
+                            <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                            <p class="quote">"World-class styling. The staff is extremely professional and the ambiance is so relaxing and aesthetic."</p>
+                            <h4>Aisha R.</h4>
+                        </div>
+                    </div>
+                     <div class="swiper-slide">
+                        <div class="testimonial-card">
+                            <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                            <p class="quote">"A beautifully designed space with incredible service. Definitely coming back for their skin treatments!"</p>
+                            <h4>Sonia M.</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="faq section-padding" style="background-color: var(--bg-darker);">
+        <div class="container">
+            <div class="text-center scroll-reveal">
+                <span class="section-subtitle">Information</span>
+                <h2 class="section-title">Frequently Asked <span class="gradient-text">Questions</span></h2>
+            </div>
+            <div class="faq-container mt-5 scroll-reveal">
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h4>Do I need an appointment?</h4>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>While walk-ins are welcome, we highly recommend booking an appointment to ensure you get your preferred stylist and time slot without waiting.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h4>What brands do you use?</h4>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>We use only premium, internationally recognized brands such as L'Oréal Professionnel, Olaplex, Redken, and Kerastase.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h4>Is the cafe open to non-salon guests?</h4>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Yes! Our cafe is open to everyone. You are welcome to drop by for a coffee and enjoy our beautiful ambiance.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section-padding">
+        <div class="container contact-container">
+            <div class="contact-info scroll-reveal">
+                <span class="section-subtitle">Get in Touch</span>
+                <h2 class="section-title">Contact <span class="gradient-text">Us</span></h2>
+                <p class="mb-4">We would love to hear from you. Reach out to book an appointment or ask us any questions.</p>
+                <div class="contact-detail">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <div>
+                        <h4>Address</h4>
+                        <p>123 Luxury Avenue, Bangalore, India</p>
+                    </div>
+                </div>
+                <div class="contact-detail">
+                    <i class="fas fa-phone"></i>
+                    <div>
+                        <h4>Phone</h4>
+                        <p>+91 98765 43210</p>
+                    </div>
+                </div>
+                <div class="contact-detail">
+                    <i class="fas fa-envelope"></i>
+                    <div>
+                        <h4>Email</h4>
+                        <p>info@diorette.in</p>
+                    </div>
+                </div>
+            </div>
+            <div class="contact-form scroll-reveal" style="transition-delay: 0.2s;">
+                <form>
+                    <div class="form-group">
+                        <input type="text" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Your Message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary w-100">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-brand">
+                <a href="#" class="logo">
+                    <span class="logo-title">DIORETTE</span>
+                    <span class="logo-subtitle">SALON &bull; CAFE</span>
+                </a>
+                <p>India's first luxury salon and cafe offering an unparalleled experience in beauty and indulgence.</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <a href="#home">Home</a>
+                <a href="#about">About Us</a>
+                <a href="#services-detail">Services</a>
+                <a href="#cafe-detail">Café</a>
+                <a href="#testimonials">Reviews</a>
+                <a href="#faq">FAQ</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <div class="footer-contact">
+                <h4>Contact Us</h4>
+                <p><i class="fas fa-map-marker-alt"></i> Bangalore, India</p>
+                <p><i class="fas fa-phone"></i> +91 98765 43210</p>
+                <p><i class="fas fa-envelope"></i> info@diorette.in</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Diorette Salon & Cafe. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
